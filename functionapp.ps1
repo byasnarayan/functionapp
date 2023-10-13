@@ -1,6 +1,6 @@
-$TenantID = "df02e614-2d24-411f-bcb0-01dde1ef2e64"
-$ApplicationID = "002dd575-d7d9-4a7d-9f5c-ccc68402d3bf"
-$ApplicationSecret = "_9J8Q~z5-5ZdgdYeQDjNZef-N1zK2MduKk9tTb-."
+$TenantID = "put your tenant ID"
+$ApplicationID = "put your app ID"
+$ApplicationSecret = "put your app ID secret"
 $SecurePassword = ConvertTo-SecureString "$ApplicationSecret" -AsPlainText -Force
 $AzureCredentials = New-Object System.Management.Automation.PSCredential
 ("$ApplicationID", $SecurePassword)
